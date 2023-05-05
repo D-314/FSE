@@ -9,7 +9,7 @@ The programm can parse and calculate different mathematical expressions.
 - use integer and floating point numbers up to 3 decimal places 
 
 ## How to use it?:
-- use ";" in the end of the string (!!!)
+- use "`;`" in the end of the string (!!!)
 - to calculate simple mathematical expression just type it
 - to use variables you need to set them first
 - to set variables you need to type "`let` [variable_name] = [value];"
@@ -18,13 +18,47 @@ The programm can parse and calculate different mathematical expressions.
 - to exit the programm type "`q`"
 
 ## Some examples of usage:
-
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%201.png)
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%202.png)
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%203.png)
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%204.png)
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%205.png)
-![alt text](https://github.com/Viroslav/SFE/blob/master/pictures/programm%20work%206.png)
+```
+> let a = 15;
+= 15.000
+> let b = 14;
+= 14.000
+> a+b;
+= 29.000
+> a-b;
+= 1.000
+```
+```
+> (((13 - 16) / 3 - 24) / 5 + 4) * 7;
+= -7.000
+```
+```
+> 5!;
+= 120.000
+```
+```
+> {15+(18-14)*3}/3;
+= 9.000
+```
+```
+> 5%3;
+= 2.000
+```
+```
+> 15.5 +16.5;
+= 32.000
+> 15.253 + 234.1235;
+= 249.377
+```
+<details>
+  <summary>Screenshots</summary>
+ <img width="240" src="./pictures/programm%20work%201.png">
+ <img width="240" src="./pictures/programm%20work%202.png">
+ <img width="240" src="./pictures/programm%20work%203.png">
+ <img width="240" src="./pictures/programm%20work%204.png">
+ <img width="240" src="./pictures/programm%20work%205.png">
+ <img width="240" src="./pictures/programm%20work%206.png">
+</details>
 
 # Quickstart
  to install in linux from nothing
@@ -39,7 +73,7 @@ make
 ./Calculator.out
 ```
 
-If you work from root just not use sudo.
+If you work from root just do not use sudo.
 
 # Tests
 
